@@ -1,0 +1,278 @@
+* {
+    background-color: #FAC898;
+}
+
+body {
+    background-color: #ffc999;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-family: "Alfa Slab One", serif;
+    font-size: 36px;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 32px;
+}
+
+h3 {
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 32px;
+}
+
+p {
+    font-family: "Alumni Sans", sans-serif;
+}
+
+a {
+    font-family: "Alumni Sans", sans-serif;
+}
+
+.foto-contacto  {
+    text-align: center;
+}
+
+.logos-contacto {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.indice {
+    text-align: center; 
+    margin-top: 65px;
+    margin-bottom: 65px; 
+    top: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    border-color:#474747;
+    border-width: 1px;
+    border:solid;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.indice-menor {
+    background-color: #474747;
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    border-radius: 50px;
+    padding: 5px 10px;
+    margin-left: 15px;
+    margin-right: 15px; 
+}
+
+article {
+    text-align: center;
+    font-size: 32px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+hr {
+    color: #474747;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-width: 1px;
+    border-color: #474747;
+}
+
+.experiencia-menor {
+    display: flex;
+    align-items: center;
+    margin: 10px 50px 10px 50px;
+
+}
+
+.texto-experiencia {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen-experiencia {
+    width: 100px;
+    align-items: center;
+}
+
+.titulo-experiencia {
+    margin-left: 15px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    padding: 0px;
+    align-items: center;
+}
+
+.descripcion-experiencia {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: justify;
+    align-items: center;
+}
+
+
+.experiencia {
+    margin-left: 225px;
+    margin-right: 225px;
+}
+
+.bloque-experiencia {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+section {
+    margin: 50px 0px 65px 0px;
+}
+
+.imagen-formacion {
+    text-align: center;
+}
+
+.imagen-formacion-menor {
+    padding: 25px;
+}
+
+.piezas-periodisticas {
+    text-align: center;
+}
+
+#medios {
+    font-size: 28px;
+}
+
+#estrategia {
+   font-size: 28px; 
+}
+
+.articulos-periodisticos {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin-left: 275px;
+    margin-right: 275px;
+}
+
+.articulos-individuales img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.articulos-individuales {
+    padding: 25px;
+    display: block;
+    text-align: center;
+}
+
+.boton-articulos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton-vermas {
+  display: inline-block;         
+  background-color: #474747;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 50px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.web-estrategia {
+    text-align: center;
+    margin: 70px 25px 25px 25px;
+}
+
+.paginas-diseno {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.webs {
+    padding: 10px;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+}
+
+td {
+    padding: 25px 25px 5px 25px;
+}
+
+label {
+    display:block;
+    text-align: center;
+    padding: 5px;
+    }
+
+ 
+   
+      
+form {
+        background-color: #ffc999;
+        width: 100%;
+        max-width: 700px;
+        margin: 50px auto;
+        padding: 0 20px;
+        box-sizing: border-box;
+      }      
+      
+input, textarea {
+        width: 100%;
+        margin-bottom: 0px;
+        font-family: "Alumni Sans", sans-serifs     ;
+        padding: 10px;
+        font-size: 20px;
+        border: none;
+        background-color: #e5e5e5;
+        box-sizing: border-box;
+        border-radius: 0px;
+      }
+      
+#boton {
+        background-color: #4d4d4d;
+        color: white;
+        border: none;
+        padding: 12px 30px;
+        font-size: 16px;
+        border-radius: 15px;
+        cursor: pointer;
+        float: right;
+        margin-top: 10px;
+      }
+      
+#boton:hover {
+        background-color: #333;
+      }
+
+#botonarriba {
+    position: fixed;
+    bottom: 20px;
+    right: 60px;
+    z-index: 999;
+}
+
+.selector-idioma {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 100%;
+    max-width: 95%;
+    justify-content: right;
+}
